@@ -26,6 +26,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     Plug 'justinmk/vim-sneak'
     Plug 'tpope/vim-commentary'
+    " Cool Icons
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'ryanoasis/vim-devicons'
     "vim emmit
     Plug 'mattn/emmet-vim'    
     Plug 'liuchengxu/vim-which-key'
@@ -48,6 +51,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "fzf
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': '    :UpdateRemotePlugins' }
+    " Vista
+    Plug 'liuchengxu/vista.vim'
+    " Better tabline
+    " Plug 'romgrk/barbar.nvim'
     Plug 'airblade/vim-rooter'
     " auto set indent settings
     Plug 'tpope/vim-sleuth'
@@ -57,4 +65,29 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mbbill/undotree'
     Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
     Plug 'tpope/vim-dadbod'
+    " Intuitive buffer closing
+    Plug 'moll/vim-bbye'
+    " Debugging
+    Plug 'puremourning/vimspector'
+    Plug 'szw/vim-maximizer'
+    " Neovim in Browser
+    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(1) } }
+    " Closetags
+    Plug 'alvan/vim-closetag'
+    
+    " live server
+    Plug 'turbio/bracey.vim'
+    " Smooth scroll
+    Plug 'psliwka/vim-smoothie'
+    " " async tasks
+    Plug 'skywind3000/asynctasks.vim'
+    Plug 'skywind3000/asyncrun.vim'
+    " Swap windows
+    Plug 'wesQ3/vim-windowswap'
+    " Markdown Preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+
+
+
+
     call plug#end()
