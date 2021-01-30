@@ -56,4 +56,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " undo time travel
     Plug 'mbbill/undotree'
     Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+    Plug 'tpope/vim-dadbod'
     call plug#end()
