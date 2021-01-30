@@ -10,6 +10,23 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
+    "Change dates fast
+    Plug 'tpope/vim-speeddating'
+    "Convert binary, hex, etc..
+    Plug 'glts/vim-radical'
+    " Repeat stuff
+    Plug 'tpope/vim-repeat'
+    "Text-Navigation 
+    Plug 'unblevable/quick-scope'
+    "Useful for React Commenting
+    Plug 'suy/vim-context-commentstring'
+    "Easy Motion
+    Plug 'easymotion/vim-easymotion'
+    "Surround
+    Plug 'tpope/vim-surround'
+    " Treesitter
+    " Plug 'nvim-treesitter/nvim-treesitter'
+    " Plug 'nvim-treesitter/playground'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
@@ -25,6 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'mhinz/vim-startify'
     Plug 'justinmk/vim-sneak'
+    "Better Comments
     Plug 'tpope/vim-commentary'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
