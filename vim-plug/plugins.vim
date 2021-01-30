@@ -104,7 +104,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-
+    Plug 'dracula/vim', { 'name': 'dracula' }
 
 
 
