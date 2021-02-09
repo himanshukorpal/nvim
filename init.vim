@@ -28,5 +28,12 @@ source $HOME/.config/nvim/themes/dracula.vim
 source $HOME/.config/nvim/themes/airline.vim
 
 
+source $HOME/.config/nvim/plug-config/easymotion.vim
 
+source $HOME/.config/nvim/plug-config/asynctask.vim
 
+source $HOME/.config/nvim/plug-config/closetags.vim
+
+source $HOME/.config/nvim/plug-config/better-whitespace.vim
+
+source $HOME/.config/nvim/plug-config/illuminate.vim

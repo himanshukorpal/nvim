@@ -40,6 +40,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Vim Status Line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    
     Plug 'mhinz/vim-startify'
     Plug 'justinmk/vim-sneak'
     "Better Comments
@@ -105,7 +106,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
     Plug 'dracula/vim', { 'name': 'dracula' }
-
+    Plug 'SirVer/ultisnips'
 
 
     call plug#end()
